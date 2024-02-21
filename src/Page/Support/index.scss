@@ -1,0 +1,40 @@
+.card {
+  background: #FFFFFF;
+  border: 2px solid #F1F1F1;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(1, 12, 41, 0.04);
+  border-radius: 18px;
+  padding: 28px;
+}
+.modal-support {
+  .ant-modal-header {
+    .ant-modal-title {
+      .header-mobile__container {
+        padding: 2rem 1rem 1rem 2rem !important;
+      }
+    }
+  }
+  .ant-modal-body {
+
+    .wrapp-support-area {
+      .wrapp-text {
+        border: 1px solid #F4F4F4;
+      }
+      .support-area {
+        border: 1px solid #F4F4F4;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+.modal-setting {
+  .ant-modal-header {
+    .ant-modal-title {
+      .header-mobile__container {
+        padding: 2rem 1rem 1rem 2rem !important;
+      }
+    }
+  }
+}

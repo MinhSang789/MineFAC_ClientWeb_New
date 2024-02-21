@@ -1,0 +1,76 @@
+.forgot {
+  height: 100%;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  .ml-2 {
+    margin-left: 1em;
+  }
+
+  .login-center {
+    border: none;
+  }
+
+  .login-center {
+    border: none;
+  }
+
+  &-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 195px;
+    
+    img {
+      height: 195px !important;
+    }
+  } 
+
+  .login__title {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
+  .login__input__icon {
+    .ant-input-suffix {
+      display: block !important;
+      right: 37px;
+      top: 0;
+      position: absolute;
+    }
+    input {
+      text-align: center;
+    }
+  }
+
+  .ant-form-item-explain.ant-form-item-explain-connected {
+    text-align: center;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  @media (max-height: 600.5px) {
+    height: calc(100% + 100px);
+  }
+
+  @media (max-height: 540.5px) {
+    height: calc(100% + 200px);
+  }
+
+  @media (max-height: 414.5px) {
+    height: calc(100% + 300px);
+  }
+
+  @media (max-height: 280.5px) {
+    height: calc(100% + 400px);
+  }
+
+  
+  @media (max-width: 280.5px) and (max-height: 653.5px) {
+    height: calc(100% + 180px);
+  }
+}

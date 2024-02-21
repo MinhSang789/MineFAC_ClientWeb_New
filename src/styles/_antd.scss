@@ -1,0 +1,120 @@
+.ant-modal,
+.ant-modal-content {
+  // height: calc(100vh + 150px) !important;
+  width: 100vw !important;
+  max-width: 576px !important;
+  margin: 0 !important;
+  top: 0 !important;
+}
+.ant-modal-body {
+  height: calc(100vh - 180px) !important;
+  padding: 0 !important;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.ant-modal-header {
+  padding: 0 !important;
+  border: none !important;
+  background-color: transparent;
+  z-index: 1;
+  position: relative !important;
+}
+
+.ant-form-item-label > label {
+  font-weight: 500;
+}
+
+.ant-input,
+.ant-input:hover,
+.ant-input-affix-wrapper,
+.ant-input-number,
+.ant-input-number:hover {
+  background: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #222222;
+  border-radius: 2px;
+}
+
+.ant-input-number-group-wrapper {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #222222;
+  .ant-input-number,
+  .ant-input-number:hover,
+  .ant-input-number-focused {
+    border: none;
+  }
+  .ant-input-number-group-addon {
+    &:first-child {
+      border-left-width: 0;
+      border-top-width: 0;
+      border-bottom-width: 0;
+      border-right: 1px solid #222222;
+    }
+    &:last-child {
+      background-color: #ffffff;
+      border: none;
+    }
+  }
+}
+
+.ant-input-group-wrapper-status-error,
+.ant-input-number-group-wrapper-status-error {
+  border-color: #ff4d4f !important;
+  .ant-input-group-addon:first-child {
+    border-color: #ff4d4f !important;
+  }
+  .ant-input-number-group-addon:first-child {
+    border-color: #ff4d4f !important;
+  }
+}
+
+.ant-input-number-group-wrapper {
+  display: block;
+}
+
+.change_language-selected {
+  .ant-select-dropdown,
+  .ant-select-item-option-selected {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+  }
+  
+  .ant-select-item-option-active {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+  }
+}
+
+.ant-form-item-explain-error {
+  text-align: center;
+}
+
+.ant-carousel .slick-dots li button {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+}
+
+.ant-carousel .slick-dots-bottom {
+  bottom: 20px;
+}
+
+.ant-input-number-handler-wrap {
+  display: none;
+}
+
+.ant-form-large .ant-form-item-label > label {
+  height: 20px;
+}
+
+
+.btn-external {
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: #F2F7FF;
+  color: #5479BB;
+}

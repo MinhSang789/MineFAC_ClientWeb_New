@@ -1,0 +1,24 @@
+.bar {
+  display: grid;
+  grid-template-columns: 45%5%45%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.up > svg {
+  transform: rotate(180deg);
+}
+
+.down > svg {
+    transform: rotate(0deg);
+}
+
+.hide {
+    height: 0;
+    overflow: hidden;
+}
+
+.show {
+    height: max-content;
+}

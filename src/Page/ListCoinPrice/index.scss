@@ -1,0 +1,114 @@
+.recharge_history {
+  // min-height: calc(100vh - 400px);
+  padding: 0 12px;
+  .ant-select-dropdown {
+    background: var(--main-four-color) !important;
+  }
+
+  .ant-select-item-option-selected {
+    background: var(--main-third-color) !important;
+  }
+
+  .ant-select-item {
+    &:hover {
+      background: var(--main-third-color) !important;
+    }
+  }
+
+  .ant-select-selector {
+    background: var(--main-four-color) !important;
+    border-radius: 4px !important;
+    border-color: var(--main-four-color) !important;
+  }
+
+  .ant-select-arrow .anticon > svg {
+    path {
+      fill: var(--white-color);
+    }
+  }
+  .ant-pagination-item {
+    background-color: transparent !important;
+    color: var(--main-twelfth-color) !important;
+    border-color: var(--main-border-color);
+  }
+  .ant-pagination-item-active {
+    background-color: var(--main-color) !important;
+    color: var(--orange-color) !important;
+    border-color: var(--main-color) !important;
+  }
+  .ant-pagination-item-link {
+    background-color: transparent !important;
+    border: 1px solid var(--main-border-color) !important;
+    svg {
+      path {
+        fill: var(--grey-color) !important;
+      }
+      margin-top: -6px !important;
+    }
+  }
+  &__select_date {
+    margin-left: 11px !important;
+  }
+
+  &__normal_text {
+    font-weight: 400 !important;
+    font-size: 14px;
+  }
+  &__group_select_date {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    .ant-picker {
+      padding: 5px 12px;
+    }
+  }
+  &__header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $color1-gray3;
+    padding: 28px 0 20px 20px;
+  }
+
+  &__text_green {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--green-color);
+  }
+
+  .management__box {
+    border: 1px solid #0000001f;
+    background-color: #ffffff !important;
+    .ant-table-wrapper {
+      padding: 28px 20px 20px 20px;
+      .ant-table-container {
+        .ant-table-thead {
+          background-color: $color1-gray4;
+          .ant-table-cell {
+            &::before {
+              background-color: $color1-gray3 !important;
+            }
+          }
+        }
+      }
+      .ant-pagination {
+        margin: 57px 0;
+        .ant-pagination-prev,
+        .ant-pagination-item,
+        .ant-pagination-next {
+          border: 1px solid $color1-gray3;
+          &.ant-pagination-item-active {
+            // background-color: $primary !important;
+            color: $white !important;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &__header {
+      display: block;
+    }
+  }
+}

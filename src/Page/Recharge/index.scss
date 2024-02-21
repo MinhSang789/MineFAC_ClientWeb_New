@@ -1,0 +1,96 @@
+
+.recharge{
+  &__text-sub{
+    margin-top: -15px;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--main-li-color);
+  }
+  &__box{
+    background: var(--main-box-color);
+    border-radius: 4px;
+    padding: 12px 20px;
+    text-decoration: none ;
+    &-second{
+      background: var(--white-color) !important;
+    }
+    svg{
+      margin-right: 12px;
+      fill: auto !important;
+    }
+    span{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      color: var(--green-color);
+      
+    }
+  }
+  &__subText{
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--main-twelfth-color);
+    opacity: 0.8;
+    &-parent{
+      margin-top: 30px;
+    }
+  }
+  &__item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--main-twelfth-color);
+    &__sub{
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+  }
+  &__ul{
+    list-style-type: disc !important; 
+  }
+  &__cardInfo{
+    background-image: url("/assets/imagesHome/cardInfo1.png") ;
+    background-size: cover;
+    min-height: 144px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    background-position: right;
+    padding: 16px;
+    border-radius: 16px;
+    color: var(--white-color);
+    &__content{
+      background: var(--main-eleven-color);
+      border-radius: 16px;
+      height: 100%;
+      margin-bottom: 24px;
+      width: 100%;
+    }
+    &__lable{
+      font-size: 12px;
+      line-height: 20px;
+    }
+    &__text{
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 28px;
+      letter-spacing: 0.04em;
+    }
+     &__hr{
+      background-color: var(--white-color);
+      width: 16px;
+      margin: 8px 0px;
+      height: 1px;
+     }
+  }
+  &__note{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--white-color);
+    margin-bottom: 16px;
+  }
+}

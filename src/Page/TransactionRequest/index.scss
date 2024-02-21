@@ -1,0 +1,22 @@
+
+.coint_sell {
+  &__green {
+    background-color: var(--green-color) !important;
+  }
+  &__origan_dev {
+    background-color: var(--main-five-color) !important;
+  }
+  &__btn_agree {
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: var(--main-eleven-color);
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  &__btn_cancel {
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: var(--main-eight-color);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,17 @@
+.firebaseui-idp-text.firebaseui-idp-text-long {
+    display: none !important;
+}
+.firebaseui-idp-text.firebaseui-idp-text-short {
+    display: none !important;
+}
+.firebaseui-idp-button,.mdl-button {
+    padding: 0px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    .firebaseui-idp-icon-wrapper{
+        padding-left: 13px;
+    }
+}
+.firebaseui-card-content{
+    padding-left: 0px !important;
+}

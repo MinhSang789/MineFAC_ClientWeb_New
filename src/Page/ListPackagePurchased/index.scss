@@ -1,0 +1,29 @@
+.package_purchase{
+  &__disable_icon_collect {
+    cursor: not-allowed;
+    margin-right: 10px;
+    svg {
+        fill: var(--grey-color);
+    }
+  }
+  &__enable_icon_collect {
+    svg {
+        fill: var(--main-color);
+    }
+  }
+  &__disable_icon_mining_gray {
+    svg {
+        fill: var(--grey-color);
+    }
+  }
+  &__disable_icon_mining_green {
+    svg {
+        fill: var(--main-color);
+    }
+  }
+  &__active_icon_mining {
+    svg {
+        fill: var(--main-eight-color);
+    }
+  }
+}

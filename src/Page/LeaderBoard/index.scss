@@ -1,0 +1,211 @@
+.header {
+  border-radius: 0px 0px 32px 32px;
+  position: relative;
+  top: -4px;
+}
+.modal-leader {
+  .ant-modal-content {
+    background-image: url('/assets/imagesHome/bg-leader.png');
+    height: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .ant-modal-header {
+      background: transparent;
+    }
+  }
+}
+.leader-board {
+  height: 100vh;
+  // background: url('/assets/imagesHome/bg-leader.png');
+  // mask-image: url('/assets/images/bg-leader.png');
+  // mask-repeat: no-repeat;
+  mask-position: center;
+  // border: 4px solid rgba(249, 155, 16, 0.5);
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1024px;
+  margin: 20px auto;
+  .list-account {
+    display: flex;
+    margin-top: 180px;
+    @media (max-width:576px) {
+      margin-top: 90px;
+      margin-bottom: 90px;
+      flex-direction: column;
+      .position {
+        margin-bottom: 90px;
+        &.first-position {
+          top: 0;
+        }
+      }
+    }
+    .position {
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .title-container {
+    top: -16px;
+    max-width: 520px;
+    .title-board {
+      font-size: 24px;
+      line-height: 48px;
+      font-weight: 700;
+      text-align: center;
+    }
+    @media (max-width:576px) {
+      width: 270px;
+      .title-board {
+        line-height: 36px;
+      }
+    }
+  }
+  .btn-buy {
+    margin-bottom: 40px;
+    padding: 16px;
+    width: 50%;
+    min-width: fit-content;
+    @media (max-width:576px) {
+      margin-bottom: 140px;
+    }
+  }
+  .box-img {
+    margin-bottom: 50px;
+  }
+  .bd-16 {
+    border-radius: 16px !important;
+  }
+  .card {
+    width: 96%;
+    @media (max-width: 354px) {
+      padding: 8px;
+    }
+    img {
+      width: 65px;
+      height: 65px;
+    }
+    .leader-name {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .leader-groupNm {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .leader-div {
+      background: #ACACAC;
+      width: 20px;
+      height: 1px;
+    }
+    .leader-coin {
+      svg {
+        width: 20px;
+      }
+    }
+    .leader-troppy {
+      svg {
+        width: 30px;
+      }
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ED3C37;
+      }
+    }
+    .wrapper-img {
+      position: relative;
+      .leader-rank {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #FFDF36;
+        text-align: center;
+        right: 3px;
+      }
+      .rank-1 {
+        background-color: #FFDF36;
+      }
+      .rank-2 {
+        background: #F1F1F1;
+      }
+      .rank-3 {
+        background: #E99D2B;
+      }
+    }
+  }
+  .leader-annoucement {
+    background: #5479BB !important;
+    width: 80%;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px;
+  }
+}
+
+.position {
+  background: #5479BB;
+  border: 3px solid #42639C;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 0px rgba(47, 70, 111, 0.9);
+  border-radius: 36px;
+  color: var(--white-color);
+  padding: 84px 32px 24px 32px;
+  text-align: center;
+  position: relative;
+  margin-left: 24px;
+}
+
+.first-position {
+  position: relative;
+  top: -100px;
+}
+
+.dv {
+  height: 2px;
+  width: 40px;
+  background-color: #FFFFFF !important;
+  margin: 12px 0px;
+  display: inline-block;
+}
+
+.trophy {
+  background: #FF8314;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 24px;
+  padding: 4px 0;
+}
+
+.wrapper {
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 60px)
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+}
+
+.badge {
+  background: #FF8314;
+  border: 1px solid none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -4px;
+  left: calc(50% - 28px);
+}

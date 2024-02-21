@@ -1,0 +1,23 @@
+ body {
+   background-color: rgb(254, 252, 247);
+ }
+ 
+ #root {
+   max-width: 576px;
+   margin: auto;
+   overflow-x: hidden;
+   overflow-y: auto;
+   background-color: #FFFFFF;
+   /* height: fit-content; */
+   position: relative;
+ }
+
+ iframe {
+   display: none;
+ }
+
+ 
+.swal-button--confirm.loading {
+  pointer-events: none;
+  opacity: .5;
+}

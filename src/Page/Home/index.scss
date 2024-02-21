@@ -1,0 +1,139 @@
+.img-banner {
+  border-radius: 60px;
+  width: 375px;
+  height: 228px;
+  @media screen and (max-width: 340px) {
+    border-radius: 45px;
+    width: 30em;
+    height: 50vw;
+  }
+}
+.bg-light-home {
+  background: #fbfbfb;
+}
+.red-text {
+  color: red;
+}
+.home {
+  // height: calc(100vh + 170px);
+  &__disable {
+    &__content {
+      padding: 40px;
+    }
+  }
+}
+.ant-modal-root {
+  .modal-signout {
+    .signout__sec {
+      &--title {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .enabled-2fa {
+        color: #047b73;
+      }
+      .disabled-2fa {
+        color: #acacac;
+      }
+    }
+  }
+  .modal-authenticator {
+    .ant-modal-content {
+      .ant-modal-body {
+        padding-bottom: 200px !important;
+      }
+    }
+  }
+  .modalXPay {
+    .ant-modal-content {
+      .ant-modal-header {
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #047B73;
+        .ant-modal-title {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFF;
+        }
+      }
+      .ant-modal-body {
+        height: 100% !important;
+        // padding-bottom: 200px !important;
+        .xpay-label-input {
+          margin: 30px 0px;
+          text-align: center;
+        }
+        .xpay-btn {
+          margin-bottom: 30px;
+          button {
+            height: 40px;
+            width: 48%;
+          }
+          .join-btn {
+            background-color: #FFBA52;
+            border-color: #FFBA52;
+          }
+          .transfer-btn {
+            background-color: #F6F6F6;
+          }
+        }
+        .xpay-bg {
+          margin-top: 60px;
+        }
+        .wallet-transfer-model {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px 15px;
+          background-color: #F6F6F6;
+          &--type {
+              .ant-form-item-control-input-content {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 15px;
+                margin-bottom: 10px;
+              }
+              .ant-form-item-label {
+                padding: 10px 15px;
+              }
+          }
+          &--input {
+            .ant-form-item-control-input-content {
+              display: flex;
+              flex-flow: column;
+              justify-content: space-between;
+              padding: 0px 15px;
+              margin-bottom: 10px;
+              .ant-input-number-group-wrapper {
+                border-color: #F6F6F6;
+                .ant-input-number-lg input  {
+                  height: 40px;
+                }
+              }
+            }
+            .ant-form-item-label {
+              padding: 10px 15px;
+            }
+        }
+        }
+      }
+    }
+  }
+}
+.modal-xpay {
+  .ant-modal-content {
+    padding-bottom: 300px;
+    .ant-modal-body {
+      .xpay-bg {
+        margin-top: 50px;
+        img {
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

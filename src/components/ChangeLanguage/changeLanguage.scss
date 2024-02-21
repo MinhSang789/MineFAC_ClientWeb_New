@@ -1,0 +1,75 @@
+.change_language {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px;
+  margin-bottom: 20px;
+
+  &>div:first-child {
+    width: 90px;
+  }
+
+  &-selected {
+    width: 90px;
+    height: 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 7px;
+    padding-left: 7px;
+    .ant-select-selector {
+      background: rgba(255, 255, 255, 0.1) !important;
+      border: none !important;
+      padding: 0 8px !important;
+      width: 80px;
+      height: 28px;
+    }
+
+    .ant-select-arrow {
+      svg {
+        fill: #fff;
+      }
+    }
+  }
+
+  .brand {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* Color #2/White */
+
+    color: #FFFFFF;
+
+    span {
+      color: #FFBA52;
+    }
+
+  }
+}
+
+.flag {
+  width: 17px;
+  height: 10px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 4px;
+}
+.ant-select-item-option {
+  .text {
+    color: #000000;
+  }
+}

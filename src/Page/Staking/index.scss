@@ -1,0 +1,101 @@
+.staking {
+  &__list {
+    padding: 24px 8px;
+    &__item {
+      width: 100%;
+      margin-bottom: 16px;
+      height: fit-content;
+      position: relative;
+      cursor: pointer;
+      .background {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      .content {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0 12px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .left {
+          display: flex;
+          align-items: center;
+          .icon {
+            width: 32px;
+            height: 32px;
+            padding: 8px;
+            border-radius: 50%;
+            text-align: center;
+            margin: 0 10px 0 0;
+            align-items: center;
+            display: flex;
+            &.saving {
+              background: #4e2ecf;
+            }
+            &.history {
+              background: #5479bb;
+            }
+            svg > g > path {
+              fill: #fff;
+            }
+          }
+          .text {
+            color: #fff;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+          }
+        }
+        .right {
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.15);
+          width: 24px;
+          height: 24px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  &__form {
+    .label {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      padding-bottom: 8px;
+    }
+    .content {
+      background: #f7f7f7;
+      color: #00bf13;
+      padding: 12px;
+    }
+    .btn {
+      width: 132px;
+      padding: 8px;
+    }
+    .text-price {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      &.remaining {
+        color: #5479bb;
+      }
+    }
+  }
+}
+.modal-staking-permanent {
+  .custom-boostrap-col {
+    @media screen and (max-width: 300px) {
+      .staking__form {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.register {
+  height: 100%;
+  background-image: url("/assets/images/login_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+
+  &-container {
+    background-color: #fff;
+    border-radius: 40px 40px 0px 0px;
+    width: 100%;
+    bottom: 0;
+    padding: 0 28px;
+
+    .login__title {
+      margin-top: 40px;
+    }
+  
+    .ant-tabs-nav {
+      display: none;
+    }
+
+    .ant-tabs.ant-tabs-top {
+      max-width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .login__subTitle {
+      margin-bottom: 36px;
+    }
+
+    &.full {
+      height: 100%;
+      border-radius: 0px;
+    }
+
+    &.small {
+      height: 100%;
+
+      form {
+        width: 100%;
+
+      input {
+          text-align: center;
+          border: 2px solid rgba(4, 123, 115, 1);
+        }
+
+        .ant-input-password {
+          border: 2px solid rgba(4, 123, 115, 1);
+          input {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+
+  &-otp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  &-success {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      width: 140px;
+      height: 140px;
+    }
+  }
+
+  .login{
+    &-center {
+      padding: 38px;
+      height: auto;
+    }
+  }
+  @media (max-height: 740.5px) {
+    height: calc(100% + 150px);
+  }
+
+  @media (max-height: 667.5px) {
+    height: calc(100% + 230px);
+  }
+
+  @media (max-height: 414.5px) {
+    height: calc(100% + 420px);
+  } 
+}
+
+.backIcon {
+  svg {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+  }
+}
